@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightpink;
+}
+nav{
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+nav div{
+    padding: 15px 20px;
+}
+nav div a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition-duration: 0.4s;
+}
+nav div .active{
+    color: skyblue;
+}
+nav div a:hover{
+    color: skyblue;
+    font-size: 1.8rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 4rem);
+}
+main div{
+    font-size: 1.7rem;
+    color: white;
+    background-color: #222222;
+    padding: 15px 20px;
+    border-radius: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main div span{
+    color: skyblue;
+}
+main button{
+    margin-top: 25px;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 15px;
+    border-radius: 7px;
+    border-color: #222222;
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+    color: #222222;
+    transition-duration: 0.4s;
+}
+main button:hover{
+    background-color: #222222;
+    color: white;
+    padding: 10px 30px;
+}
